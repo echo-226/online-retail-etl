@@ -5,6 +5,10 @@
 This project is an **ETL (Extract, Transform, Load)** pipeline built with **Apache Spark** and **PySpark** to process online retail transaction data.
 It cleans raw data, transforms it into meaningful business metrics, and outputs datasets for analysis and reporting.
 
+Data Source:
+UCI Machine Learning Repository – Online Retail Dataset
+The dataset contains transactional data from a UK-based online retail store between 1/12/2010 and 9/12/2011.
+
 ---
 
 ## Project Structure
