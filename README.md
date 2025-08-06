@@ -29,6 +29,8 @@ online-retail-etl/
 │   └── customers
 │   └── monthly_trend
 │   └── products
+├── tests/
+│   └── test_retail_etl_job.py
 ├── Makefile
 └── README.md
 
@@ -64,6 +66,11 @@ The ETL job will read from `data/online_retail.csv`, clean and transform the dat
 * **products** – Product-level metrics (sales quantity, revenue)
 * **monthly\_trend** – Monthly sales trend
 
+### 2. Run test
+Using `make`:
+```bash
+make test
+```
 ---
 
 ## Key Features
@@ -78,6 +85,10 @@ The ETL job will read from `data/online_retail.csv`, clean and transform the dat
   * Calculate **Total Orders**, **Total Spent**, and **Return Rate** per customer
   * Aggregate sales metrics per product
   * Generate monthly sales trend reports
+
+* **Testing**
+
+  * Unit tests with a local Spark session to validate transformations
 
 ---
 
